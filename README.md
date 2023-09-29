@@ -4,17 +4,16 @@ Descriptions
 In this project, a Convolutional Neural Network (CNN) is compiled of four layers and used to classify images of digit numbers.  
 
 Contents  
-1. "Project3ClassificationUsingCNN_XinYang.pdf" is the report.  
-2. "main.py" is the python code for main function.  
-3. "precode.py" and "mnist.py" are the python codes for obtaining and preparing image data from mnist database.
-4. CNN_package is the folder including the python codes for layers and the neural network structure.  
-4.1 "Convolution2D.py" is for convolution layer.  
-4.2 "Maxpooling2D.py" is for pooling layer.  
-4.3 "FullConnected.py" is for fully-connected neuron layer.  
-4.4 "Flatten.py" is used to flatten data dimensions.  
-4.5 "ReLu.py" is used as a activation function to convert the outputs.  
-4.6 "Softmax.py" is used as a activation function to convert the outputs.  
-4.7 "Net.py" defines the structure of CNN class.  
+"main.py" is the python code for main function.  
+"precode.py" and "mnist.py" are the python codes for obtaining and preparing image data from mnist database.
+CNN_package is the folder including the python codes for layers and the neural network structure.  
+1 "Convolution2D.py" is for convolution layer.  
+2 "Maxpooling2D.py" is for pooling layer.  
+3 "FullConnected.py" is for fully-connected neuron layer.  
+4 "Flatten.py" is used to flatten data dimensions.  
+5 "ReLu.py" is used as a activation function to convert the outputs.  
+6 "Softmax.py" is used as a activation function to convert the outputs.  
+7 "Net.py" defines the structure of CNN class.  
 
 Instruction  
 The main function accept two optional parameters - epoch (default=10), batch_size (default=100).  
